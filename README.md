@@ -6,6 +6,8 @@ I created this program because i wanted to check if Telia had any GPU's in their
 Programs you need to install:
 - Node.JS (https://nodejs.org/en/download/)
 
+Create folder to your desktop and extract Teliacrawler in to it. 
+
 You need to create Discord bot and add it to Discord server you are on. Only privilege you need to give this bot is "Send messages"
 https://discordpy.readthedocs.io/en/latest/discord.html
 
@@ -62,8 +64,7 @@ You can add products to "/tuotteet" -folder. There is "sample.json" file that us
 
 ### **How to start the program**
 
-1. Download program from Github
-2. Create folder to somewhere. Desktop is good location to create new folder.
-3. Open newly created folder with CMD or with some other commandline tool.
-4. Write "npm i" (this step needs to be done only once)
-5. Write "node index.js"
+
+1. Open folder where program is installed with CMD or with some other commandline tool.
+2. Write "npm i" (this step needs to be done only once)
+3. Start program by typing "node index.js"
