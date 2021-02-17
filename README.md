@@ -11,11 +11,13 @@ https://discordpy.readthedocs.io/en/latest/discord.html
 
 After creating the bot you need to fetch API key. Go to "Bot" section of your application and under "token" click "Copy". After this open "conf_empty.json" and set it like this:
 
+  
   {
     "discord_key": "pasteyourkeyhere",
     "discord_uid": ""
   }
   
+
 Now you have properly set your bot key here. Now we are going to show you how to get your Discord UID. 
 
 1. Join to voicechannel
@@ -23,10 +25,12 @@ Now you have properly set your bot key here. Now we are going to show you how to
 3. Click "Copy ID"
 4. Set it to discord_uid like this:
 
+
   {
     "discord_key": "pasteyourkeyhere",
     "discord_uid": "yourdiscordidhere"
   }
+
 
 Now you have configured your bot. Rename "conf_empty.json" to "conf.json".
 
