@@ -53,7 +53,7 @@ You can add products to "/tuotteet" -folder. There is "sample.json" file that us
     {
         "name": "sample",
         "link": "https://kauppa.telia.fi/kauppa/laitteet/puhelin/Samsung-Galaxy-S20-FE-5G",
-        "ro_name": "galaxys20",
+        "ro_name": "sample",
         "msgfound": "Puhelin on myynnissä!",
         "msgnotfound": "Puhelinta ei ole saatavilla."
     }
