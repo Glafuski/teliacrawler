@@ -6,7 +6,7 @@ I created this program because i wanted to check if Telia had any GPU's in their
 Programs you need to install:
 - Node.JS (https://nodejs.org/en/download/)
 
-###**How to add products to the program?**
+### **How to add products to the program?**
 
 You can add products to "/tuotteet" -folder. There is "sample.json" file that user can copy and paste with different information.
 
@@ -21,7 +21,7 @@ msgnotfound - Message you want to set when product is not available. Note that t
 
 ###
 
-###**How to start the program**
+### **How to start the program**
 
 1. Create folder for bot
 2. Extract files to folder that was just created
