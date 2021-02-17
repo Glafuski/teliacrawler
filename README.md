@@ -6,6 +6,30 @@ I created this program because i wanted to check if Telia had any GPU's in their
 Programs you need to install:
 - Node.JS (https://nodejs.org/en/download/)
 
+You need to create Discord bot and add it to Discord server you are on. Only privilege you need to give this bot is "Send messages"
+https://discordpy.readthedocs.io/en/latest/discord.html
+
+After creating the bot you need to fetch API key. Go to "Bot" section of your application and under "token" click "Copy". After this open "conf_empty.json" and set it like this:
+
+  {
+    "discord_key": "pasteyourkeyhere",
+    "discord_uid": ""
+  }
+  
+Now you have properly set your bot key here. Now we are going to show you how to get your Discord UID. 
+
+1. Join to voicechannel
+2. Right click yourself
+3. Click "Copy ID"
+4. Set it to discord_uid like this:
+
+  {
+    "discord_key": "pasteyourkeyhere",
+    "discord_uid": "yourdiscordidhere"
+  }
+
+Now you have configured your bot. Rename "conf_empty.json" to "conf.json".
+
 ### **How to add products to the program?**
 
 You can add products to "/tuotteet" -folder. There is "sample.json" file that user can copy and paste with different information.
