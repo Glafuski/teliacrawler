@@ -12,11 +12,11 @@ You can add products to "/tuotteet" -folder. There is "sample.json" file that us
 
 JSON FILE STRUCTURE
 
-Name - Set product name here. Do not use whitespaces. This name should equal to JSON file name. If you have file called "gpu.json" you need to set this name to "gpu".
-Link - Product link. Set products link here!
-ro_name - Set this same as name. No need to explain this to users as for users standpoint it is not important to understand what this does.
-msgfound - Message you want to set when product is found. Message is sent to console and to Discord.
-msgnotfound - Message you want to set when product is not available. Note that this program does not message you on Discord when product is not available. 
+- Name - Set product name here. Do not use whitespaces. This name should equal to JSON file name. If you have file called "gpu.json" you need to set this name to "gpu".
+- Link - Product link. Set products link here!
+- ro_name - Set this same as name. No need to explain this to users as for users standpoint it is not important to understand what this does.
+- msgfound - Message you want to set when product is found. Message is sent to console and to Discord.
+- msgnotfound - Message you want to set when product is not available. Note that this program does not message you on Discord when product is not available. 
 
 
 ###
