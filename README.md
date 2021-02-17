@@ -48,7 +48,7 @@ You can add products to "/tuotteet" -folder. There is "sample.json" file that us
 - msgfound - Message you want to set when product is found. Message is sent to console and to Discord.
 - msgnotfound - Message you want to set when product is not available. Note that this program does not message you on Discord when product is not available. 
 
-**EXAMPLE**
+**EXAMPLE - sample.json**
 
     {
         "name": "sample",
